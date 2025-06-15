@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Fatos Cósmicos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Space+Mono&display=swap');
+
+    body {
+        font-family: 'Space Mono', monospace;
+        font-size: 15px;
+    }
+
+    h1,
+    h2 {
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 700;
+    }
+
+    h1 {
+        text-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+        letter-spacing: 2px;
+        font-size: 50px;
+    }
+
+    :root {
+        --cor-primaria: #07979e;
+        --cor-secundaria: #9d00ff;
+        --fundo-escuro: #0a192f;
+    }
+
+    body {
+        color: #ffffff;
+        background-color: var(--fundo-escuro);
+    }
+
+    header {
+        background: linear-gradient(to right, var(--cor-primaria), var(--cor-secundaria));
+    }
+
+    nav a {
+        color: var(--cor-primaria);
+        text-decoration: none;
+    }
+    
+    .link {
+        color: var(--fundo-escuro);
+        font-size: 18px;
+    }
+    
+    .destaque {
+        color: var(--cor-secundaria);
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <header>
+        <div>
+            <img src="../imagens/logouniube.png" alt="Logo Uniube">
+            <h1>Universo - Curiosidades</h1>
+            <li><a href="index.html" class="link">Voltar para Home</a></li>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <h2>Você Sabia?</h2>
+            
+            <div class="curiosidade-item">
+                <h3>Tamanho do Sol</h3>
+                <p>Cabem 1.3 milhões de Terras dentro do Sol</p>
+            </div>
+
+            <div class="curiosidade-item">
+                <h3>Velocidade da Luz</h3>
+                <p>Leva 8 minutos para chegar à Terra</p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>Gustavo Borges de Souza - RA 5152101</p>
+    </footer>
+</body>
+</html>

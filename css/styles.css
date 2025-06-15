@@ -1,0 +1,47 @@
+/* Estilos Gerais */
+.link-home {
+    color: #0a192f;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Galeria */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Formulário */
+.form-contato {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-contato label {
+    display: block;
+    margin: 15px 0;
+}
+
+/* Tabelas */
+.tabela-cosmos {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.tabela-cosmos th,
+.tabela-cosmos td {
+    padding: 12px;
+    border: 1px solid var(--cor-primaria);
+}

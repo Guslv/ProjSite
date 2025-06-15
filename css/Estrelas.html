@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Estrelas - Explorando o Universo</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Space+Mono&display=swap');
+
+    body {
+        font-family: 'Space Mono', monospace;
+        font-size: 15px;
+    }
+
+    h1,
+    h2 {
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 700;
+    }
+
+    h1 {
+        text-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+        letter-spacing: 2px;
+        font-size: 50px;
+    }
+
+    :root {
+        --cor-primaria: #07979e;
+        --cor-secundaria: #9d00ff;
+        --fundo-escuro: #0a192f;
+    }
+
+    body {
+        color: #ffffff;
+        background-color: var(--fundo-escuro);
+    }
+
+    header {
+        background: linear-gradient(to right, var(--cor-primaria), var(--cor-secundaria));
+    }
+
+    nav a {
+        color: var(--cor-primaria);
+        text-decoration: none;
+    }
+    
+    .link {
+        color: var(--fundo-escuro);
+        font-size: 18px;
+    }
+    
+    .destaque {
+        color: var(--cor-secundaria);
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <header>
+        <div>
+            <img src="../imagens/logouniube.png" alt="Logo Uniube">
+            <h1>Universo - Estrelas</h1>
+            <a href="index.html" class="link">Voltar para Home</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="conteudo-estrelas">
+            <h2>O Fascinante Mundo das Estrelas</h2>
+
+            <article>
+                <h3>Como as estrelas nascem</h3>
+                <img src="../imagens/nascimento-estrelas.jpg" width="600" height="350" alt="Formação de estrelas">
+                <p>As estrelas se formam em enormes nuvens de gás e poeira chamadas <span
+                        class="destaque">nebulosas</span>. Quando uma região da nebulosa se torna densa o suficiente,
+                    começa a colapsar sob sua própria gravidade. Estrelas jovens brilham intensamente na luz
+                    ultravioleta, enquanto a luz visível revela a estrutura das nuvens de formação estelar, as ondas de
+                    choque causadas por jatos de estrelas em formação e o gás ionizado colorido nas nebulosas energizado
+                    por estrelas jovens. Os comprimentos de onda mais longos da luz infravermelha conseguem atravessar a
+                    nuvem com relativamente pouca interferência. Os instrumentos de infravermelho próximo do Hubble e
+                    seu alto poder de resolução conseguem detectar essa luz que escapa, revelando regiões profundamente
+                    embutidas nessas nuvens, onde estrelas recém-nascidas se formam. Essas capacidades fazem do Hubble
+                    uma ferramenta essencial no estudo de estrelas em desenvolvimento.</p>
+            </article>
+
+            <article>
+                <h3>Tipos de Estrelas</h3>
+                <img src="../imagens/Tipos-estrelas.jpg" width="600" height="150" alt="Tipos de estrelas">
+                <ul>
+                    <li>Anã Amarela</li>
+                    <li>Anã Vermelha</li>
+                    <li>Gigante Vermelha</li>
+                    <li>Supergigante Vermelha</li>
+                    <li>Gigante Azul</li>
+                    <li>Anã Branca</li>
+                    <li>Anã Marrom</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Ciclo de Vida Estelar</h3>
+                <img src="../imagens/ciclo-de-vida-estelar.jpg" width="550" height="300"
+                    alt="Ciclo de vida das estrelas">
+                <ol>
+                    <li>Nebulosa Estelar</li>
+                    <li>Protoestrela</li>
+                    <li>Sequência Principal</li>
+                    <li>Gigante Vermelha</li>
+                    <li>Remanescente Estelar</li>
+                </ol>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Gustavo Borges de Souza - RA 5152101</p>
+    </footer>
+</body>
+
+</html>
