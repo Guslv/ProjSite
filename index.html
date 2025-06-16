@@ -14,6 +14,7 @@
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <title>Explorando o Universo</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Space+Mono&display=swap');
@@ -31,8 +32,9 @@
 
     h1 {
         text-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
-        letter-spacing: 2px;
-        font-size: 50px;
+        letter-spacing: 20px;
+        font-size: 100px;
+        line-height: 0%;
     }
 
     :root {
@@ -55,6 +57,11 @@
         text-decoration: none;
     }
 
+    desc {
+        font-size: 13px;
+
+    }
+
     .link {
         color: var(--fundo-escuro);
         font-size: 18px;
@@ -63,6 +70,7 @@
     .destaque {
         color: var(--cor-secundaria);
         font-weight: bold;
+        text-align: center;
     }
 </style>
 
@@ -76,18 +84,18 @@
         <div>
             <img src="imagens/logouniube.png" alt="Logo Uniube">
             <h1>Universo</h1>
-            <p>Mistérios Cósmicos</p>
+            <desc>Mistérios Cósmicos</desc>
         </div>
     </header>
 
     <main>
         <h2>Bem-vindo à Jornada pelo Cosmos</h2>
-        <p class="destaque">Descubra os segredos do cosmos...</p>
-        <p>Aqui você verá <span class="destaque">nebulosas</span>, <span class="destaque">buracos negros</span> e muito
-            mais!</p>
+        <desc class="destaque">Descubra os segredos do cosmos...</desc>
     </main>
 
     <nav>
+        <p>Aqui você verá <span class="destaque">nebulosas</span>, <span class="destaque">buracos negros</span> e muito
+            mais!</p>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="Sistemasolar.html">Sistema Solar</a></li>

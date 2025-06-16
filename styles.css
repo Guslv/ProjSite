@@ -1,4 +1,23 @@
 /* Estilos Gerais */
+
+head, header {
+    text-align: center;
+    line-height: 160%;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+h1, h2, desc, main {
+    text-align: center;
+}
+
+p, section, article {
+    text-align: justify;
+}
+
 .link-home {
     color: #0a192f;
     font-size: 18px;
