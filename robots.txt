@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://https://guslv.github.io/ProjSite/sitemap.xml
+Sitemap: https://guslv.github.io/ProjSite/sitemap.xml
